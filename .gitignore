@@ -272,3 +272,42 @@ compile_commands.json
 
 *_qmlcache.qrc
 
+# LaTeX build artifacts (keep .tex sources and .pdf documents)
+*.aux
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.xdv
+*.dvi
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.bbl
+*.blg
+*.run.xml
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.ist
+*.loa
+*.lol
+*.thm
+*.spl
+*.sum
+
+# Local document tooling artifacts
+docs/src/*.metadata.json
+docs/src/*.sign.lock
+docs/src/examples/*.docx
